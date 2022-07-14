@@ -1,0 +1,346 @@
+@media (max-width: 1199px) {
+    .catalog {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        min-height: 612px;
+        padding: 21px 0 40px 0;
+        &_header {
+            font-size: 35px;
+        }
+        &_subheader {
+            font-size: 21px;
+        }
+    }
+    .benefits {
+        min-height: 384px;
+        padding: 0;
+        &__blocks {
+            margin-top: 33px;
+        }
+    }
+    .carousel {
+        padding: 15px 0;
+        &__inner {
+            width: 740px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .consultation {
+        min-height: 533px;
+        padding: 15px 0;
+        &_title {
+            font-size: 24px;
+            line-height: 45px;
+        }
+    }
+    .catalog {
+        padding-bottom: 20px;
+        &__tabs {
+            margin-top: 20px;
+        }
+        &__content {
+            justify-content: space-evenly;
+        }
+        
+    }
+    .footer {
+        min-height: 570px;
+        &__info {
+            padding: 25px 26px 28px 26px;
+            width: 460px;
+            height: 270px;
+        }}
+}
+
+@media (max-width: 767px) {
+    .promo {
+        min-height: 510px;
+        padding: 0;
+        &__wrapper {
+            margin-top: 38px;
+            align-items: center;
+        }
+        &_header {
+            font-size: 28px;
+        }
+        &_subheader {
+            font-size: 18px;
+        }
+        .button_main {
+            width: 229px;
+            height: 44px;
+            line-height: 46px;
+        }
+        
+        
+
+    }
+    .header {
+        &__logo {
+            width: 33%;
+        }
+
+        
+        &__official {
+            font-size: 11px;
+            span {
+                font-size: 14px;
+            }
+        }
+        &__contacts {
+            a.header__phone {
+                font-size: 15px;
+            }
+            .button {
+                width: 131px;
+                height: 24px;
+            }
+
+        }
+    }
+    .benefits {
+        min-height: 352px;
+        margin-top: 0px;
+        &_header {
+            font-size: 24px;
+        }
+    }
+    .consultation {
+        min-height: 480px;
+        padding: 50px 0;
+        display: block;
+        text-align: center;
+        &_title {
+            margin-top: 35px;
+            font-size: 17px;
+            line-height: 25px;
+        }
+        &_descr {
+            font-size: 15px;
+            line-height: 17px;
+        }
+        .feed-forms {
+            padding: 0 189px;
+            width: 100%;
+            input {
+                height: 45px;
+                text-align: center;
+            }
+        }
+        .button_submit {
+            width: 100%;
+            height: 45px;
+            font-size: 13px;
+        }
+    }
+    .carousel {
+        padding: 10px 0;
+        &__inner {
+            width: 550px;
+            
+        }
+        .slick-dots li {
+            button {
+                width: 9px;
+                height: 13px;
+            }
+        }
+    }
+    .catalog {
+        h2.title {
+            font-size: 22px;
+        }
+        &__tab {
+            font-size: 15px;
+        }
+    }
+    .reviews {
+        &__header {
+            font-size: 22px;
+        }
+        &__block {
+            img {
+                width: 140px;
+                height: 140px;
+            }
+            
+        }
+        &__dscr {
+            font-size: 14px;
+        }
+        
+    }
+    .footer {
+        min-height: 370px;
+        &__info {
+            padding: 30px 0;
+            width: 346px;
+            height: 238px;
+        }
+    }
+    
+}
+@media (max-width: 575px) {
+    .promo {
+        padding: 5px 10px;
+        min-height: 460px;
+        &_header {
+            font-size: 21px;
+            text-align: center;
+        }
+        &_subheader {
+            margin-top: -10px;
+            font-size: 14px;
+            text-align: center;
+        }
+        &__phone {
+            display: block;
+        }
+        &__icons {
+            width: 260px;
+            font-size: 10px;
+        }
+        .button_main {
+            margin-top: 5px;
+            width: 174px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 13px;
+        }
+        .header {
+            align-items: center;
+            justify-content: center;
+        
+            &__logo {
+                width: 50%;
+            }
+            &__official {
+                font-size: 9px;
+            }
+            &__contacts {
+                display: none;
+            }
+        }
+    }
+    .benefits {
+        min-height: 240px;
+        padding: 5px 0;
+        &_header {
+            font-size: 19px;
+        }
+        &__block {
+            width: 33%;
+            img {
+                width: 70%;
+            }
+            h5 {
+                font-size: 14px;
+            }
+            p {
+                display: none;
+            }
+        }
+    }
+    .consultation {
+        min-height: 358px;
+        padding: 18px 0;
+        &_title {
+            font-size: 12px;
+        }
+        &_descr {
+            font-size: 13px;
+        }
+        .feed-forms {
+            padding: 0px 73px;
+            input {
+                height: 38px;
+                font-size: 11px;
+            }
+        }
+        .button_submit {
+            height: 38px;
+            font-size: 11px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 310px;
+        }
+    }
+    .catalog {
+        &__tab {
+            font-size: 10px;
+        }
+    }
+    .catalog-item {
+        min-height: 320px;
+        img {
+            height: 130px;
+        }
+        hr {
+            display: none;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        &__link {
+            font-size: 13px;
+        }
+        &__price {
+            font-size: 16px;
+        }
+        &__old-price {
+            font-size: 13px;
+        }
+        &__list li {
+            font-size: 14px;
+        }
+        &__back {
+            font-size: 13px;
+        }
+        &__footer {
+            margin-top: 12px;
+        }
+        .button_mini {
+            width: 114px;
+            height: 30px;
+            font-size: 13px;
+        }
+    }
+    .reviews {
+
+        &__block {
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+        }
+        &__message {
+            margin: 0 auto;
+            width: 100%;
+        }
+        &__dscr {
+            text-align: center;
+        }
+        
+    }
+    .footer {
+        &__info {
+            width: 320px;
+        }
+    }
+}

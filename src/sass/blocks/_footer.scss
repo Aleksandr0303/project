@@ -1,0 +1,37 @@
+.footer {
+    position: relative;
+    min-height: 643px;
+&__info {
+    padding: 50px 53px 56px 53px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 460px;
+    height: 270px;
+    background-color: $main-color;
+}
+&__addr {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+&__phone {
+    display: block;
+    margin-top: 36px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+&__sochial {
+    display: block;
+    text-align: center;
+    margin-top: 36px;
+    img {
+        margin: 0 13px;
+    }
+}
+
+}
